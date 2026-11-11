@@ -18,7 +18,7 @@
         <module name="1-SpringJDBC" />
         <module name="2-SpringDataJDBC" />
       </profile>
-      <profile name="Annotation profile for 11-SpringDataMongoDB" enabled="true">
+      <profile name="Annotation profile for 12-JPA-MultiDB" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -26,6 +26,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
         </processorPath>
         <module name="11-SpringDataMongoDB" />
+        <module name="12-JPA-MultiDB" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="10-SpringDataJPA_2CustomQuery" options="-parameters" />
       <module name="10SpringDataJPA_CustomQuery" options="-parameters" />
       <module name="11-SpringDataMongoDB" options="-parameters" />
+      <module name="12-JPA-MultiDB" options="-parameters" />
       <module name="2-SpringDataJDBC" options="-parameters" />
       <module name="3-SpringDataJPA" options="-parameters" />
       <module name="4-SpringDataJPA" options="-parameters" />
